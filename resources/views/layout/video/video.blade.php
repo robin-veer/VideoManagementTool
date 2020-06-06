@@ -1,0 +1,9 @@
+<video id="video" class="video-js w-100 h-auto" autoplay controls preload="auto" width="640" muted
+       height="264"
+       poster="/thumbnails/{{$video->thumbnail}}" data-setup="{}" data-id="{{$video->id}}">
+    <source src="{{$video->getPath()}}" type="video/mp4">
+    <p class="vjs-no-js">
+        To view this video please enable JavaScript, and consider upgrading to a web browser that
+        <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+    </p>
+</video>

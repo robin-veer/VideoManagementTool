@@ -1,0 +1,28 @@
+
+$black: black;
+.text {
+  &-0 {
+    color: $black;
+  }
+
+  &-10 {
+    color: lighten($black, 10);
+  }
+
+  &-20 {
+    color: lighten($black, 20);
+  }
+
+  &-40 {
+    color: lighten($black, 40);
+  }
+
+  &-60 {
+    color: lighten($black, 60);
+  }
+
+  &-80 {
+    color: lighten($black, 80);
+  }
+
+}

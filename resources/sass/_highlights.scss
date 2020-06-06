@@ -1,0 +1,28 @@
+.bg-primary{
+    background-color: $primary;
+    &-light{
+        background-color: lighten($primary,20%);
+    }
+    &-dark{
+        background-color: darken($primary,20%);
+    }
+}
+
+.color-primary{
+    color: $primary;
+    &-light{
+        color: lighten($primary,20%);
+    }
+    &-dark{
+        color: darken($primary,20%);
+    }
+}
+
+.border-primary{
+    &-top{
+        border-top: solid $primary 5px;
+    }
+    &-bottom{
+        border-bottom: solid $primary 5px;
+    }
+}
